@@ -49,6 +49,7 @@ public class PhraseSolver
     {
       
       /* your code here - game logic */
+      currentPlayer = getPlayer(currentNum);
       System.out.println("Its your turn "+ currentPlayer.getName());
       System.out.println(this.board.getSolvedPhrase());
       String guess = input.nextLine();
