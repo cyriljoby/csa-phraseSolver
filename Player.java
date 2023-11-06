@@ -30,7 +30,21 @@ public class Player
     System.out.println("Welcome " + name);
   }
 
-  /* your code here - accessor(s) */ 
 
+  /* your code here - accessor(s) */ 
+  public String getName() {
+    return name;
+  }
+
+  public int getPoints() {
+    return points;
+  }
   /* your code here - mutator(s) */ 
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setPoints(int points) {
+    this.points = points;
+  }
 }
